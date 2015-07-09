@@ -1,0 +1,9 @@
+Duet Inkjet Pins:
+
+Pin Function			Duet Header Pin		Arduino Pin
+
+Serial Data:			40			65
+Shift Register Clock:		35			20
+Storage Register Clock:		32			67
+Output Enable:			31			66
+Shift Register Clear:		25			36
