@@ -1,0 +1,22 @@
+The PCB files here are not complete, nor has any part of this circuit been tested.
+
+The circuit uses the TI DRV8662 piezo driver IC.
+This chip accepts a 3-5V power supply, and can generate driving voltage up to 100V
+It takes an input signal, and linearly amplifies it to generate the output signal.
+
+For the testing I have been doing with my inkjet, I have used the Piezodrive Pdu100b,
+which uses the DRV8662, as well as adding extra functionality such as DIP switches to 
+set the gain (therefore setting the maximum output voltage. During my testing, I powered 
+it from 5V, and the driving signal is a 5V square wave (genetated from an Arduino Mega). 
+This caused the output to always saturate at 100V or 0V. Better results may be had by 
+carefully controlling the wave shape.
+
+I have also tested it a 90V, and the inkjet generally works just as well at this voltage.
+At 60V and 70V, the inkjet does not work.
+
+
+
+I believe the circuit in the Kicad schematic is correct, but it is untested. Component values
+need to be selected.
+
+The PCB has has components placed, but traces have not been routed.

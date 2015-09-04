@@ -1,0 +1,12 @@
+This is a very crude program to generate c code to print an image using the HP51604 ink cartridge
+mounted on an ormerod
+
+It takes a PBM (pixel bit map) image as an input. Note that there is no scaling applied. 12 pixels = 3.2mm
+The image height should be a multiple of 12 pixels. GIMP can generate PBM images. Make sure the encoding
+is ASCII.
+
+The program must be recompiled if a different file required.
+
+The .pbm image file must be in the same directory as the program. 
+
+It would be better if it accepted user input to select its file, but I haven't done that. 
